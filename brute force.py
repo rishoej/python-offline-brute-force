@@ -1,7 +1,6 @@
 import string
 from itertools import product, combinations, permutations
 
-
 def dictHack(dictonary):
     print("Trying dictonary hack...")
     with open(dictonary) as fileObj:
@@ -49,7 +48,7 @@ def lowercaseHack(maxLength,doubledChars):
 
 
 password = "99999999"
-#dictonary = "dict.txt"
+dictonary = "dict.txt"
 alphabet = set('abcdefghijklmnopqrstuvwxyz')
 
 def bruteforce():
